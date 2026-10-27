@@ -104,7 +104,7 @@ zc-repl
 Zen C includes a built-in Language Server for editor integration.
 
 - **[Installation & Setup Guide](docs/LSP.md)**
-- **Supported Editors**: VS Code, Neovim, Vim ([zenc.vim](https://github.com/zenc-lang/zenc.vim)), Zed, and any LSP-capable editor.
+- **Supported Editors**: VS Code, Neovim, Vim ([zenc.vim](https://github.com/zenc-lang-ce/zenc-vim)), Zed, and any LSP-capable editor.
 
 Use `zc-lsp` to start the server.
 

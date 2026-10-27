@@ -306,7 +306,7 @@ This project uses third-party libraries. Full license texts can be found in the 
 *   **[zc-ape](https://github.com/OEvgeny/zc-ape)** (MIT License): The original Actually Portable Executable port of Zen-C by [Eugene Olonov](https://github.com/OEvgeny).
 *   **[Cosmopolitan Libc](https://github.com/jart/cosmopolitan)** (ISC License): The foundational library that makes APE possible.
 *   **[TRE](https://github.com/laurikari/tre)** (BSD License): Used for the regular expression engine in the standard library.
-*   **[zenc.vim](https://github.com/zenc-lang/zenc.vim)** (MIT License): The official Vim/Neovim plugin, primarily authored by **[davidscholberg](https://github.com/davidscholberg)**.
+*   **[zenc.vim](https://github.com/zenc-lang-ce/zenc-vim)** (MIT License): The official Vim/Neovim plugin, primarily authored by **[davidscholberg](https://github.com/davidscholberg)**.
 
 ---
 
@@ -317,10 +317,10 @@ This project uses third-party libraries. Full license texts can be found in the 
   </p>
   <p>
     <a href="https://discord.com/invite/q6wEsCmkJP">Discord</a> •
-    <a href="https://github.com/zenc-lang/zenc">GitHub</a> •
-    <a href="https://github.com/zenc-lang/docs">Documentation</a> •
-    <a href="https://github.com/zenc-lang/awesome-zenc">Examples</a> •
-    <a href="https://github.com/zenc-lang/rfcs">RFCs</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc">GitHub</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc-docs">Documentation</a> •
+    <a href="https://github.com/zenc-lang-ce/awesome-zenc">Examples</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc-rfcs">RFCs</a> •
     <a href="CONTRIBUTING.md">Contribute</a>
   </p>
 </div>

@@ -18,7 +18,7 @@ It communicates over standard input/output (stdio).
 
 For Visual Studio Code, use the official Zen C extension:
 
-- **Repository**: [zenc-lang/vscode-zenc](https://github.com/zenc-lang/vscode-zenc)
+- **Repository**: [zenc-lang-ce/zenc-vscode](https://github.com/zenc-lang-ce/zenc-vscode)
 
 Install the extension directly from the **[Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=zenc-lang.zenc)**.
 

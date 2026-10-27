@@ -448,7 +448,7 @@ Este projeto usa bibliotecas de terceiros. Textos completos de licença podem se
 *   **[zc-ape](https://github.com/OEvgeny/zc-ape)** (Licença MIT): O port original Actually Portable Executable do Zen-C por [Eugene Olonov](https://github.com/OEvgeny).
 *   **[Cosmopolitan Libc](https://github.com/jart/cosmopolitan)** (Licença ISC): A biblioteca fundadora que torna APE possível.
 *   **[TRE](https://github.com/laurikari/tre)** (Licença BSD): Usado para o motor de expressões regulares na biblioteca padrão.
-*   **[zenc.vim](https://github.com/zenc-lang/zenc.vim)** (Licença MIT): O plugin oficial para Vim/Neovim, escrito principalmente por **[davidscholberg](https://github.com/davidscholberg)**.
+*   **[zenc.vim](https://github.com/zenc-lang-ce/zenc-vim)** (Licença MIT): O plugin oficial para Vim/Neovim, escrito principalmente por **[davidscholberg](https://github.com/davidscholberg)**.
 
 ---
 
@@ -459,10 +459,10 @@ Este projeto usa bibliotecas de terceiros. Textos completos de licença podem se
   </p>
   <p>
     <a href="https://discord.com/invite/q6wEsCmkJP">Discord</a> •
-    <a href="https://github.com/zenc-lang/zenc">GitHub</a> •
-    <a href="https://github.com/zenc-lang/docs">Documentação</a> •
-    <a href="https://github.com/zenc-lang/awesome-zenc">Exemplos</a> •
-    <a href="https://github.com/zenc-lang/rfcs">RFCs</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc">GitHub</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc-docs">Documentação</a> •
+    <a href="https://github.com/zenc-lang-ce/awesome-zenc">Exemplos</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc-rfcs">RFCs</a> •
     <a href="CONTRIBUTING_PT_BR.md">Contribuir</a>
   </p>
 </div>

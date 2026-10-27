@@ -11,7 +11,7 @@ highlight_theme = "css"
 
 [extra]
 version = "v0.4.4"
-github_url = "https://github.com/zenc-lang/zenc"
+github_url = "https://github.com/zenc-lang-ce/zenc"
 
 [markdown]
 render_emoji = true

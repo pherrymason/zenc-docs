@@ -455,7 +455,7 @@ fn main() {
 *   **[zc-ape](https://github.com/OEvgeny/zc-ape)** (MIT 許可證)：由 [Eugene Olonov](https://github.com/OEvgeny) 開發的原版 Zen-C 實際上便攜的可執行文件 (APE) 端口。
 *   **[Cosmopolitan Libc](https://github.com/jart/cosmopolitan)** (ISC 許可證)：使 APE 成為可能納基礎庫。
 *   **[TRE](https://github.com/laurikari/tre)** (BSD 許可證)：用於標準庫中的正則表達式引擎。
-*   **[zenc.vim](https://github.com/zenc-lang/zenc.vim)** (MIT 許可證)：官方 Vim/Neovim 插件，主要作者為 **[davidscholberg](https://github.com/davidscholberg)**。
+*   **[zenc.vim](https://github.com/zenc-lang-ce/zenc-vim)** (MIT 許可證)：官方 Vim/Neovim 插件，主要作者為 **[davidscholberg](https://github.com/davidscholberg)**。
 
 ---
 
@@ -466,10 +466,10 @@ fn main() {
   </p>
   <p>
     <a href="https://discord.com/invite/q6wEsCmkJP">Discord</a> •
-    <a href="https://github.com/zenc-lang/zenc">GitHub</a> •
-    <a href="https://github.com/zenc-lang/docs">文檔</a> •
-    <a href="https://github.com/zenc-lang/awesome-zenc">範例</a> •
-    <a href="https://github.com/zenc-lang/rfcs">RFC</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc">GitHub</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc-docs">文檔</a> •
+    <a href="https://github.com/zenc-lang-ce/awesome-zenc">範例</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc-rfcs">RFC</a> •
     <a href="CONTRIBUTING_ZH_TW.md">貢獻</a>
   </p>
 </div>

@@ -17,7 +17,7 @@
   <p>
     <a href="#"><img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status"></a>
     <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License"></a>
-    <a href="#"><img src="https://img.shields.io/github/v/release/zenc-lang/zenc?label=version&color=orange" alt="Version"></a>
+    <a href="#"><img src="https://img.shields.io/github/v/release/zenc-lang-ce/zenc?label=version&color=orange" alt="Version"></a>
     <a href="#"><img src="https://img.shields.io/badge/platform-linux%20%7C%20windows%20%7C%20macos-lightgrey" alt="Platform"></a>
   </p>
   <p><em>Пишите как на высокоуровневом языке, запускайте как Си.</em></p>
@@ -48,7 +48,7 @@
 Приглашаем вас присоединиться к нам на официальном Discord-сервере Zen C! Здесь можно обсуждать проект, делиться примерами, задавать вопросы и сообщать об ошибках.
 
 - Discord: [Присоединиться](https://discord.com/invite/q6wEsCmkJP)
-- RFC: [Предложить функции](https://github.com/zenc-lang/rfcs)
+- RFC: [Предложить функции](https://github.com/zenc-lang-ce/zenc-rfcs)
 
 ## Экосистема
 
@@ -56,13 +56,13 @@
 
 | Репозиторий | Описание | Статус |
 | :--- | :--- | :--- |
-| **[zenc](https://github.com/zenc-lang/zenc)** | Ядро компилятора Zen C (`zc`), CLI и стандартная библиотека. | Активная разработка |
-| **[docs](https://github.com/zenc-lang/docs)** | Официальная техническая документация и спецификация языка. | Активен |
-| **[rfcs](https://github.com/zenc-lang/rfcs)** | Репозиторий запросов на комментарии (RFC). Формируйте будущее языка. | Активен |
-| **[vscode-zenc](https://github.com/zenc-lang/vscode-zenc)** | Официальное расширение VS Code (подсветка синтаксиса, сниппеты). | Alpha |
-| **[www](https://github.com/zenc-lang/www)** | Исходный код `zenc-lang.org`. | Активен |
-| **[awesome-zenc](https://github.com/zenc-lang/awesome-zenc)** | Курируемый список отличных примеров Zen C. | Растет |
-| **[zenc.vim](https://github.com/zenc-lang/zenc.vim)** | Официальный плагин для Vim/Neovim (Синтаксис, Отступы). | Активен |
+| **[zenc](https://github.com/zenc-lang-ce/zenc)** | Ядро компилятора Zen C (`zc`), CLI и стандартная библиотека. | Активная разработка |
+| **[docs](https://github.com/zenc-lang-ce/zenc-docs)** | Официальная техническая документация и спецификация языка. | Активен |
+| **[rfcs](https://github.com/zenc-lang-ce/zenc-rfcs)** | Репозиторий запросов на комментарии (RFC). Формируйте будущее языка. | Активен |
+| **[vscode-zenc](https://github.com/zenc-lang-ce/zenc-vscode)** | Официальное расширение VS Code (подсветка синтаксиса, сниппеты). | Alpha |
+| **[www](https://github.com/zenc-lang-ce/zenc-web)** | Исходный код `zenc-lang.org`. | Активен |
+| **[awesome-zenc](https://github.com/zenc-lang-ce/awesome-zenc)** | Курируемый список отличных примеров Zen C. | Растет |
+| **[zenc.vim](https://github.com/zenc-lang-ce/zenc-vim)** | Официальный плагин для Vim/Neovim (Синтаксис, Отступы). | Активен |
 
 ## Галерея
 
@@ -86,9 +86,9 @@
         <li><a href="#обзор">Обзор</a></li>
         <li><a href="#сообщество">Сообщество</a></li>
         <li><a href="#экосистема">Экосистема</a></li>
-        <li><a href="https://github.com/zenc-lang/rfcs">RFC</a></li>
+        <li><a href="https://github.com/zenc-lang-ce/zenc-rfcs">RFC</a></li>
         <li><a href="#быстрый-старт">Быстрый старт</a></li>
-        <li><a href="https://github.com/zenc-lang/docs">Документация</a></li>
+        <li><a href="https://github.com/zenc-lang-ce/zenc-docs">Документация</a></li>
         <li><a href="#стандартная-библиотека">Стандартная библиотека</a></li>
         <li><a href="#инструменты">Инструменты</a>
           <ul>
@@ -141,7 +141,7 @@
 
 ### Установка
 ```bash
-git clone https://github.com/zenc-lang/zenc.git
+git clone https://github.com/zenc-lang-ce/zenc.git
 cd Zen-C
 make clean # удалить старые файлы сборки
 make
@@ -1897,7 +1897,7 @@ fn main() {
 *   **[zc-ape](https://github.com/OEvgeny/zc-ape)** (MIT License): Оригинальный порт Actually Portable Executable Zen-C от [Eugene Olonov](https://github.com/OEvgeny).
 *   **[Cosmopolitan Libc](https://github.com/jart/cosmopolitan)** (ISC License): Основополагающая библиотека, которая делает APE возможной.
 *   **[TRE](https://github.com/laurikari/tre)** (BSD License): Используется для движка регулярных выражений в стандартной библиотеке.
-*   **[zenc.vim](https://github.com/zenc-lang/zenc.vim)** (лицензия MIT): Официальный плагин для Vim/Neovim, основной автор — **[davidscholberg](https://github.com/davidscholberg)**.
+*   **[zenc.vim](https://github.com/zenc-lang-ce/zenc-vim)** (лицензия MIT): Официальный плагин для Vim/Neovim, основной автор — **[davidscholberg](https://github.com/davidscholberg)**.
 
 ---
 
@@ -1908,10 +1908,10 @@ fn main() {
   </p>
   <p>
     <a href="https://discord.com/invite/q6wEsCmkJP">Discord</a> •
-    <a href="https://github.com/zenc-lang/zenc">GitHub</a> •
-    <a href="https://github.com/zenc-lang/docs">Документация</a> •
-    <a href="https://github.com/zenc-lang/awesome-zenc">Примеры</a> •
-    <a href="https://github.com/zenc-lang/rfcs">RFC</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc">GitHub</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc-docs">Документация</a> •
+    <a href="https://github.com/zenc-lang-ce/awesome-zenc">Примеры</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc-rfcs">RFC</a> •
     <a href="CONTRIBUTING_RU.md">Внести вклад</a>
   </p>
 </div>

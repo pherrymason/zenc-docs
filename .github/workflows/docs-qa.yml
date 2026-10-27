@@ -31,7 +31,7 @@ jobs:
 
       - name: Install Zen C Compiler
         run: |
-          git clone --depth 1 https://github.com/zenc-lang/zenc.git /tmp/zenc-build
+          git clone --depth 1 https://github.com/zenc-lang-ce/zenc.git /tmp/zenc-build
           cd /tmp/zenc-build
           sudo apt-get update && sudo apt-get install -y libtcc-dev
           make -j$(nproc)
@@ -63,7 +63,7 @@ jobs:
 
       - name: Install Zen C Compiler
         run: |
-          git clone --depth 1 https://github.com/zenc-lang/zenc.git /tmp/zenc-build
+          git clone --depth 1 https://github.com/zenc-lang-ce/zenc.git /tmp/zenc-build
           cd /tmp/zenc-build
           sudo apt-get update && sudo apt-get install -y libtcc-dev
           make -j$(nproc)

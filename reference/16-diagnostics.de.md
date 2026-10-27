@@ -139,7 +139,7 @@ zc-repl
 Zen C enthält einen integrierten Sprachserver zur Editorintegration.
 
 - **[Installations- und Einrichtungsanleitung](../docs/LSP.md)**
-- **Unterstützte Editoren**: VS Code, Neovim, Vim ([zenc.vim](https://github.com/zenc-lang/zenc.vim)), Zed und alle LSP-fähigen Editoren.
+- **Unterstützte Editoren**: VS Code, Neovim, Vim ([zenc.vim](https://github.com/zenc-lang-ce/zenc-vim)), Zed und alle LSP-fähigen Editoren.
 
 Verwende `zc-lsp`, um den Server zu starten.
 
@@ -413,7 +413,7 @@ Dieses Projekt verwendet Bibliotheken von Drittanbietern. Die vollständigen Liz
 *   **[zc-ape](https://github.com/OEvgeny/zc-ape)** (MIT-Lizenz): Der ursprüngliche Actually Portable Executable Port von Zen C von **[Eugene Olonov](https://github.com/OEvgeny)**.
 *   **[Cosmopolitan Libc](https://github.com/jart/cosmopolitan)** (ISC-Lizenz): Die zugrunde liegende Bibliothek, die APE ermöglicht.
 *   **[TRE](https://github.com/laurikari/tre)** (BSD-Lizenz): Wird für die Regex-Engine der Standardbibliothek verwendet.
-*   **[zenc.vim](https://github.com/zenc-lang/zenc.vim)** (MIT-Lizenz): Das offizielle Vim/Neovim-Plugin, hauptsächlich entwickelt von **[davidscholberg](https://github.com/davidscholberg)**.
+*   **[zenc.vim](https://github.com/zenc-lang-ce/zenc-vim)** (MIT-Lizenz): Das offizielle Vim/Neovim-Plugin, hauptsächlich entwickelt von **[davidscholberg](https://github.com/davidscholberg)**.
 
 ---
 
@@ -424,10 +424,10 @@ Dieses Projekt verwendet Bibliotheken von Drittanbietern. Die vollständigen Liz
   </p>
   <p>
     <a href="https://discord.com/invite/q6wEsCmkJP">Discord</a> •
-    <a href="https://github.com/zenc-lang/zenc">GitHub</a> •
-    <a href="https://github.com/zenc-lang/docs">Dokumentation</a> •
-    <a href="https://github.com/zenc-lang/awesome-zenc">Beispiele</a> •
-    <a href="https://github.com/zenc-lang/rfcs">RFCs</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc">GitHub</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc-docs">Dokumentation</a> •
+    <a href="https://github.com/zenc-lang-ce/awesome-zenc">Beispiele</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc-rfcs">RFCs</a> •
     <a href="CONTRIBUTING_DE.md">Mitwirken</a>
   </p>
 </div>

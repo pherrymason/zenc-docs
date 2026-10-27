@@ -17,7 +17,7 @@
   <p>  
 	<a href="#"><img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status"></a>  
 	<a href="#"><img src="https://img.shields.io/badge/license-MIT-blue" alt="Lizenz"></a>  
-	<a href="#"><img src="https://img.shields.io/github/v/release/zenc-lang/zenc?label=version&color=orange" alt="Version"></a>  
+	<a href="#"><img src="https://img.shields.io/github/v/release/zenc-lang-ce/zenc?label=version&color=orange" alt="Version"></a>  
 	<a href="#"><img src="https://img.shields.io/badge/platform-linux%20%7C%20windows%20%7C%20macos-lightgrey" alt="Plattform"></a>  
   </p>  
   <p><em>Schreiben wie in einer Hochsprache, ausführen wie in C.</em></p>  
@@ -48,7 +48,7 @@
 Diskutiere mit, teile Demos, stelle Fragen oder melde Fehler auf dem offiziellen Zen C Discord-Server!
 
 - Discord: [Hier beitreten](https://discord.com/invite/q6wEsCmkJP)
-- RFCs: [Features vorschlagen](https://github.com/zenc-lang/rfcs)
+- RFCs: [Features vorschlagen](https://github.com/zenc-lang-ce/zenc-rfcs)
 
 ## Ökosystem
 
@@ -56,13 +56,13 @@ Das Zen C-Projekt besteht aus mehreren Repositories:
 
 | Repository | Beschreibung | Status |
 | :--- | :--- | :--- |
-| **[zenc](https://github.com/zenc-lang/zenc)** | Der Kern-Compiler (zc), CLI und Standardbibliothek. | Aktive Entwicklung |
-| **[docs](https://github.com/zenc-lang/docs)** | Offizielle Dokumentation und Spezifikation. | Aktiv |
-| **[rfcs](https://github.com/zenc-lang/rfcs)** | Request for Comments (RFCs). Gestalte die Zukunft mit. | Aktiv |
-| **[vscode-zenc](https://github.com/zenc-lang/vscode-zenc)** | Offizielle VS Code Erweiterung. | Alpha |
-| **[www](https://github.com/zenc-lang/www)** | Quellcode für zenc-lang.org.| Aktiv |
-| **[awesome-zenc](https://github.com/zenc-lang/awesome-zenc)** | Eine sorgfältig zusammengestellte Liste großartiger Zen C-Beispiele. | Wachsend |
-| **[zenc.vim](https://github.com/zenc-lang/zenc.vim)** | Offizielles Vim/Neovim-Plugin (Syntax, Einrückung). | Aktiv |
+| **[zenc](https://github.com/zenc-lang-ce/zenc)** | Der Kern-Compiler (zc), CLI und Standardbibliothek. | Aktive Entwicklung |
+| **[docs](https://github.com/zenc-lang-ce/zenc-docs)** | Offizielle Dokumentation und Spezifikation. | Aktiv |
+| **[rfcs](https://github.com/zenc-lang-ce/zenc-rfcs)** | Request for Comments (RFCs). Gestalte die Zukunft mit. | Aktiv |
+| **[vscode-zenc](https://github.com/zenc-lang-ce/zenc-vscode)** | Offizielle VS Code Erweiterung. | Alpha |
+| **[www](https://github.com/zenc-lang-ce/zenc-web)** | Quellcode für zenc-lang.org.| Aktiv |
+| **[awesome-zenc](https://github.com/zenc-lang-ce/awesome-zenc)** | Eine sorgfältig zusammengestellte Liste großartiger Zen C-Beispiele. | Wachsend |
+| **[zenc.vim](https://github.com/zenc-lang-ce/zenc-vim)** | Offizielles Vim/Neovim-Plugin (Syntax, Einrückung). | Aktiv |
 
 ## Showcase
 
@@ -88,7 +88,7 @@ Projekte, die mit Zen C erstellt wurden:
 		<li><a href="#community">Community</a></li>  
 		<li><a href="#schnellstart">Schnellstart</a></li>  
 		<li><a href="#ökosystem">Ökosystem</a></li>  
-		<li><a href="https://github.com/zenc-lang/docs">Documentation</a></li>
+		<li><a href="https://github.com/zenc-lang-ce/zenc-docs">Documentation</a></li>
 		<li><a href="#standardbibliothek">Standardbibliothek</a></li>  
 		<li><a href="#tooling">Tooling</a>
 		  <ul>  
@@ -143,7 +143,7 @@ Projekte, die mit Zen C erstellt wurden:
 ### Installation
 
 ```bash
-git clone https://github.com/zenc-lang/zenc.git
+git clone https://github.com/zenc-lang-ce/zenc.git
 cd Zen-C
 make clean # Entferne alte Build-Dateien
 make
@@ -1717,7 +1717,7 @@ zc-repl
 Zen C enthält einen integrierten Sprachserver zur Editorintegration.
 
 - **[Installations- und Einrichtungsanleitung](../docs/LSP.md)**
-- **Unterstützte Editoren**: VS Code, Neovim, Vim ([zenc.vim](https://github.com/zenc-lang/zenc.vim)), Zed und alle LSP-fähigen Editoren.
+- **Unterstützte Editoren**: VS Code, Neovim, Vim ([zenc.vim](https://github.com/zenc-lang-ce/zenc-vim)), Zed und alle LSP-fähigen Editoren.
 
 Verwende `zc-lsp`, um den Server zu starten.
 
@@ -1987,7 +1987,7 @@ Dieses Projekt verwendet Bibliotheken von Drittanbietern. Die vollständigen Liz
 *   **[zc-ape](https://github.com/OEvgeny/zc-ape)** (MIT-Lizenz): Der ursprüngliche Actually Portable Executable Port von Zen C von **[Eugene Olonov](https://github.com/OEvgeny)**.
 *   **[Cosmopolitan Libc](https://github.com/jart/cosmopolitan)** (ISC-Lizenz): Die zugrunde liegende Bibliothek, die APE ermöglicht.
 *   **[TRE](https://github.com/laurikari/tre)** (BSD-Lizenz): Wird für die Regex-Engine der Standardbibliothek verwendet.
-*   **[zenc.vim](https://github.com/zenc-lang/zenc.vim)** (MIT-Lizenz): Das offizielle Vim/Neovim-Plugin, hauptsächlich entwickelt von **[davidscholberg](https://github.com/davidscholberg)**.
+*   **[zenc.vim](https://github.com/zenc-lang-ce/zenc-vim)** (MIT-Lizenz): Das offizielle Vim/Neovim-Plugin, hauptsächlich entwickelt von **[davidscholberg](https://github.com/davidscholberg)**.
 
 ---
 
@@ -1998,10 +1998,10 @@ Dieses Projekt verwendet Bibliotheken von Drittanbietern. Die vollständigen Liz
   </p>
   <p>
     <a href="https://discord.com/invite/q6wEsCmkJP">Discord</a> •
-    <a href="https://github.com/zenc-lang/zenc">GitHub</a> •
-    <a href="https://github.com/zenc-lang/docs">Dokumentation</a> •
-    <a href="https://github.com/zenc-lang/awesome-zenc">Beispiele</a> •
-    <a href="https://github.com/zenc-lang/rfcs">RFCs</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc">GitHub</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc-docs">Dokumentation</a> •
+    <a href="https://github.com/zenc-lang-ce/awesome-zenc">Beispiele</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc-rfcs">RFCs</a> •
     <a href="CONTRIBUTING_DE.md">Mitwirken</a>
   </p>
 </div>

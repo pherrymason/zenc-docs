@@ -64,8 +64,8 @@ The legacy subcommands `zc lsp`, `zc repl`, `zc doc`, and `zc format` still work
 
 ## Related Resources
 
-- **[zenc](https://github.com/zenc-lang/zenc)**: The core compiler source code.
-- **[awesome-zenc](https://github.com/zenc-lang/awesome-zenc)**: A collection of examples and Rosetta Code implementations.
+- **[zenc](https://github.com/zenc-lang-ce/zenc)**: The core compiler source code.
+- **[awesome-zenc](https://github.com/zenc-lang-ce/awesome-zenc)**: A collection of examples and Rosetta Code implementations.
 
 ## Contributing to Docs
 

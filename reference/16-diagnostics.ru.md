@@ -446,7 +446,7 @@ fn main() {
 *   **[zc-ape](https://github.com/OEvgeny/zc-ape)** (MIT License): Оригинальный порт Actually Portable Executable Zen-C от [Eugene Olonov](https://github.com/OEvgeny).
 *   **[Cosmopolitan Libc](https://github.com/jart/cosmopolitan)** (ISC License): Основополагающая библиотека, которая делает APE возможной.
 *   **[TRE](https://github.com/laurikari/tre)** (BSD License): Используется для движка регулярных выражений в стандартной библиотеке.
-*   **[zenc.vim](https://github.com/zenc-lang/zenc.vim)** (лицензия MIT): Официальный плагин для Vim/Neovim, основной автор — **[davidscholberg](https://github.com/davidscholberg)**.
+*   **[zenc.vim](https://github.com/zenc-lang-ce/zenc-vim)** (лицензия MIT): Официальный плагин для Vim/Neovim, основной автор — **[davidscholberg](https://github.com/davidscholberg)**.
 
 ---
 
@@ -457,10 +457,10 @@ fn main() {
   </p>
   <p>
     <a href="https://discord.com/invite/q6wEsCmkJP">Discord</a> •
-    <a href="https://github.com/zenc-lang/zenc">GitHub</a> •
-    <a href="https://github.com/zenc-lang/docs">Документация</a> •
-    <a href="https://github.com/zenc-lang/awesome-zenc">Примеры</a> •
-    <a href="https://github.com/zenc-lang/rfcs">RFC</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc">GitHub</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc-docs">Документация</a> •
+    <a href="https://github.com/zenc-lang-ce/awesome-zenc">Примеры</a> •
+    <a href="https://github.com/zenc-lang-ce/zenc-rfcs">RFC</a> •
     <a href="CONTRIBUTING_RU.md">Внести вклад</a>
   </p>
 </div>
